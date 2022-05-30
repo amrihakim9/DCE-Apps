@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".eight">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg1"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="About"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/pic8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@+id/text8"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/amri"/>
+
+            <TextView
+                android:id="@+id/text81"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pic8"
+                android:layout_marginTop="50dp"
+                android:layout_margin="25dp"
+                android:fontFamily="@font/googlesans_medium"
+                android:text="Terima Kasih kepada seluruh tim KKNT DE yang telah mendukung saya dari tahap awal pembuatan hingga aplikasi DIGITAL CONTENT EDUCATION ini dapat digunakan dengan baik."
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+
+            <TextView
+                android:id="@+id/text82"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text81"
+                android:layout_marginTop="150dp"
+                android:fontFamily="@font/googlesans_mediumitalic"
+                android:text="Developed By :"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text83"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text82"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/googlesans_mediumitalic"
+                android:text="Muhammad Amri Hakim"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text84"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text83"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/googlesans_mediumitalic"
+                android:text="Scoial Media :"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text85"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text84"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/googlesans_mediumitalic"
+                android:text="IG : amrihakim_c"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text86"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text85"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/googlesans_mediumitalic"
+                android:text="WA : 081211562335"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/text87"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text86"
+                android:layout_marginTop="170dp"
+                android:layout_marginHorizontal="40dp"
+                android:fontFamily="@font/googlesans_italic"
+                android:text="Editing is the most companionable form of education -Ed Weeks"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="21sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/text87"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/footer"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

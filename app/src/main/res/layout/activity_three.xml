@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".three">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg1"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="Transform"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid31"
+                android:layout_below="@id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="BJmNNruXxHk" />
+
+            <TextView
+                android:id="@+id/text31"
+                android:layout_below="@id/vid31"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Mengenal Fungsi Transformasi"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid32"
+                android:layout_below="@+id/vid31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="DP3r0XJRgO0" />
+
+            <TextView
+                android:id="@+id/text32"
+                android:layout_below="@id/vid32"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Menggunakan Transformasi"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid33"
+                android:layout_below="@+id/vid32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="EMK1V0o39pI" />
+
+            <TextView
+                android:id="@+id/text33"
+                android:layout_below="@id/vid33"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Transformasi Secara Instan"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid34"
+                android:layout_below="@id/vid33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="Y97xMuz8bDE" />
+
+            <TextView
+                android:id="@+id/text34"
+                android:layout_below="@id/vid34"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Memperbaiki Free Transform"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid35"
+                android:layout_below="@id/vid34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="ayF_932Jiws" />
+
+            <TextView
+                android:id="@+id/text35"
+                android:layout_below="@id/vid35"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Transformasi di Bidang yang Miring"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/text35"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/footer"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

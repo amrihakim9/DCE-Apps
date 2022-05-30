@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".seven">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg1"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="Smart Object"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid71"
+                android:layout_below="@id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="2fi4_MgMVs8" />
+
+            <TextView
+                android:id="@+id/text71"
+                android:layout_below="@id/vid71"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Berkenalan dengan Smart Object"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid72"
+                android:layout_below="@+id/vid71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="o_6Df9rbyIA" />
+
+            <TextView
+                android:id="@+id/text72"
+                android:layout_below="@id/vid72"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Menggunakan Smart Object"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid73"
+                android:layout_below="@+id/vid72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="XZfo0hI4xkw" />
+
+            <TextView
+                android:id="@+id/text73"
+                android:layout_below="@id/vid73"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Teknik Convert pada Smart Object"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid74"
+                android:layout_below="@id/vid73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="3YtfXqLBgws" />
+
+            <TextView
+                android:id="@+id/text74"
+                android:layout_below="@id/vid74"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Smart Object vs Rasterize Layer"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid75"
+                android:layout_below="@id/vid74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="nakyu2Xv6rw" />
+
+            <TextView
+                android:id="@+id/text75"
+                android:layout_below="@id/vid75"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Mengatasi Error Pada Smart Object"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/text75"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/footer"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

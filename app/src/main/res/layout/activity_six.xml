@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".six">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg1"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="Masking"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid61"
+                android:layout_below="@id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="JpKZpa_a4iE" />
+
+            <TextView
+                android:id="@+id/text61"
+                android:layout_below="@id/vid61"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Apa itu Masking?"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid62"
+                android:layout_below="@+id/vid61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="9Ycyx_9374A" />
+
+            <TextView
+                android:id="@+id/text62"
+                android:layout_below="@id/vid62"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Belajar Masking untuk Pemula"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid63"
+                android:layout_below="@+id/vid62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="1x2g-1vb01Y" />
+
+            <TextView
+                android:id="@+id/text63"
+                android:layout_below="@id/vid63"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Clipping Mask"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid64"
+                android:layout_below="@id/vid63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="HP1n_25R3Zk" />
+
+            <TextView
+                android:id="@+id/text64"
+                android:layout_below="@id/vid64"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Fungsi dan Cara Menggunakan Layer Mask"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid65"
+                android:layout_below="@id/vid64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="jo0N-Nx8ZPo" />
+
+            <TextView
+                android:id="@+id/text65"
+                android:layout_below="@id/vid65"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Beberapa Kesalahan Menggunakan Layer Mask"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/text65"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/footer"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".four">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/bg1"
+                android:fontFamily="@font/googlesans_bold"
+                android:text="Texting"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid41"
+                android:layout_below="@id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="jA9QsO2Ltpw" />
+
+            <TextView
+                android:id="@+id/text41"
+                android:layout_below="@id/vid41"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Mengenal Text Tool Photoshop"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid42"
+                android:layout_below="@+id/vid41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="LSYqF8OxxwU" />
+
+            <TextView
+                android:id="@+id/text42"
+                android:layout_below="@id/vid42"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Membuat Teks di Photoshop"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid43"
+                android:layout_below="@+id/vid42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="HDJJKyaplhs" />
+
+            <TextView
+                android:id="@+id/text43"
+                android:layout_below="@id/vid43"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Membuat Teks Menjadi bentuk 3D"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid44"
+                android:layout_below="@id/vid43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="tOYU5mz67RY" />
+
+            <TextView
+                android:id="@+id/text44"
+                android:layout_below="@id/vid44"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Membuat Teks Menjadi Bentuk Melingkar"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/vid45"
+                android:layout_below="@id/vid44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                app:autoPlay="false"
+                app:showYouTubeButton="false"
+                app:videoId="o6jjzvLDRWw" />
+
+            <TextView
+                android:id="@+id/text45"
+                android:layout_below="@id/vid45"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/googlesans_regular"
+                android:text="Cara Mengatur Perataan Teks"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="17sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_below="@id/text45"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/footer"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
